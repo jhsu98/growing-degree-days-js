@@ -1,4 +1,4 @@
-const GDD = require("../dest");
+const GDD = require("../dist");
 
 describe("Tests focused on the construction of a new GDD object", () => {
   it("should create an instance of GDD", () => {

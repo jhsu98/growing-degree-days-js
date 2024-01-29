@@ -1,8 +1,10 @@
 {
-  "name": "gddjs",
+  "name": "growing-degree-days",
   "version": "1.0.0",
   "description": "Simple library to calculate growing degree days (GDD).",
-  "main": "dest/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "start": "tsc --watch",
     "test": "jest --watchAll"

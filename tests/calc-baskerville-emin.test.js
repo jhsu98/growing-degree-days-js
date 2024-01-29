@@ -1,4 +1,4 @@
-const GDD = require("../dest");
+const GDD = require("../dist");
 
 describe("Tests focused on the calcBaskervilleEmin method", () => {
   it("should properly calculate GDD using the Baskerville-Emin method", () => {

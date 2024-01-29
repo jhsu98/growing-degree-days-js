@@ -1,4 +1,4 @@
-const GDD = require("../dest");
+const GDD = require("../dist");
 
 describe("Tests focused on the setting of parameters", () => {
   it("should throw an error if low_temperature is not a number", () => {
