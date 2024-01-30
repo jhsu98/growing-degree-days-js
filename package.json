@@ -1,16 +1,26 @@
 {
   "name": "growing-degree-days",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple library to calculate growing degree days (GDD).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc --build",
     "start": "tsc --watch",
     "test": "jest --watchAll"
   },
-  "keywords": ["agriculture", "growing degree days", "gdd", "temperature", "weather", "crop heat units", "chu"],
+  "keywords": [
+    "agriculture",
+    "growing degree days",
+    "gdd",
+    "temperature",
+    "weather",
+    "crop heat units",
+    "chu"
+  ],
   "author": "Jonathan Hsu",
   "license": "ISC",
   "devDependencies": {
