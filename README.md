@@ -1,4 +1,4 @@
-# gddPy
+# growing-degree-days-js
 
 ## Description
 
