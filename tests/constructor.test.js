@@ -14,8 +14,8 @@ describe("Tests focused on the construction of a new GDD object", () => {
 
   it("should not throw an error with different combinations of valid parameters", () => {
     const parameters = {
-      min_temperature: 10,
-      max_temperature: 20,
+      min_temp: 10,
+      max_temp: 20,
       threshold_low: 5,
       // threshold_high: 30,
     };

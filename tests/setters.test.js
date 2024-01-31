@@ -1,27 +1,27 @@
 const GDD = require("../dist");
 
 describe("Tests focused on the setting of parameters", () => {
-  it("should throw an error if min_temperature is not a number", () => {
+  it("should throw an error if min_temp is not a number", () => {
     const gdd = new GDD();
 
     expect((gdd) => {
-      gdd.min_temperature = "10";
+      gdd.min_temp = "10";
     }).toThrow();
 
     expect((gdd) => {
-      gdd.min_temperature = null;
+      gdd.min_temp = null;
     }).toThrow();
   });
 
-  it("should throw an error if max_temperature is not a number", () => {
+  it("should throw an error if max_temp is not a number", () => {
     const gdd = new GDD();
 
     expect((gdd) => {
-      gdd.max_temperature = "10";
+      gdd.max_temp = "10";
     }).toThrow();
 
     expect((gdd) => {
-      gdd.max_temperature = null;
+      gdd.max_temp = null;
     }).toThrow();
   });
 

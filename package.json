@@ -1,6 +1,6 @@
 {
   "name": "growing-degree-days",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple library to calculate growing degree days (GDD).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
